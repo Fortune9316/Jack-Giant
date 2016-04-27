@@ -1,0 +1,25 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+
+public class Click : MonoBehaviour, IPointerDownHandler, IPointerUpHandler {
+
+	// Use this for initialization
+	void Start () {
+	
+	}
+    public void OnPointerDown(PointerEventData data)
+    {
+        print(gameObject.name + "Was down");
+    }
+    public void OnPointerUp(PointerEventData data)
+    {
+        print(gameObject.name + "Was up");
+    }
+
+    // Update is called once per frame
+    void Update () {
+	
+	}
+}
