@@ -1,0 +1,5 @@
+3 escenas mas , botones menu con fondo menu background2, opciones con boton para atras, highscore.
+
+pegar cuatro tiras de fondo.
+
+que se mueva con los botones de abajo
