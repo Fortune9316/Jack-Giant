@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 6386e0ad0e0b22647932d60ebf4f9252
-timeCreated: 1461112160
+guid: e317bfaf649ff9c45809ace80e48cd32
+timeCreated: 1461111957
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -59,23 +59,6 @@ TextureImporter:
     - name: Menu Buttons_0
       rect:
         serializedVersion: 2
-        x: 202
-        y: 1
-        width: 53
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -26.5, y: 26.5}
-        - {x: -26.5, y: -16.5}
-        - {x: -16.5, y: -26.5}
-        - {x: 16.5, y: -26.5}
-        - {x: 26.5, y: -21.5}
-        - {x: 26.5, y: 26.5}
-    - name: Menu Buttons_1
-      rect:
-        serializedVersion: 2
         x: 0
         y: 207
         width: 204
@@ -89,7 +72,7 @@ TextureImporter:
         - {x: 102, y: -24.5}
         - {x: 102, y: 20.5}
         - {x: 101, y: 24.5}
-    - name: Menu Buttons_2
+    - name: Menu Buttons_1
       rect:
         serializedVersion: 2
         x: 0
@@ -105,7 +88,7 @@ TextureImporter:
         - {x: -97, y: -25}
         - {x: 102, y: -25}
         - {x: 102, y: 25}
-    - name: Menu Buttons_3
+    - name: Menu Buttons_2
       rect:
         serializedVersion: 2
         x: 0
@@ -120,41 +103,61 @@ TextureImporter:
         - {x: -102, y: -25}
         - {x: 102, y: -25}
         - {x: 102, y: 25}
+    - name: Menu Buttons_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 204
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 25}
+        - {x: -102, y: 20}
+        - {x: -102, y: -19}
+        - {x: -100, y: -25}
+        - {x: 95, y: -25}
+        - {x: 102, y: -21}
+        - {x: 102, y: 19}
+        - {x: 100, y: 25}
     - name: Menu Buttons_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 53
-        width: 205
-        height: 49
+        x: 202
+        y: 1
+        width: 53
+        height: 53
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -102.5, y: 24.5}
-        - {x: -102.5, y: -19.5}
-        - {x: -100.5, y: -24.5}
-        - {x: 102.5, y: -24.5}
-        - {x: 102.5, y: 24.5}
+      - - {x: -26.5, y: 26.5}
+        - {x: -26.5, y: -16.5}
+        - {x: -16.5, y: -26.5}
+        - {x: 16.5, y: -26.5}
+        - {x: 26.5, y: -21.5}
+        - {x: 26.5, y: 26.5}
     - name: Menu Buttons_5
       rect:
         serializedVersion: 2
-        x: 85
+        x: 75
         y: 0
-        width: 52
-        height: 53
+        width: 67
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -24, y: 26.5}
-        - {x: -26, y: 19.5}
-        - {x: -26, y: -24.5}
-        - {x: -24, y: -26.5}
-        - {x: 24, y: -26.5}
-        - {x: 26, y: -25.5}
-        - {x: 26, y: 21.5}
-        - {x: 24, y: 26.5}
+      - - {x: -19.5, y: 26}
+        - {x: -25.5, y: 23}
+        - {x: -25.5, y: -16}
+        - {x: -20.5, y: -26}
+        - {x: 28.5, y: -26}
+        - {x: 31.5, y: -20}
+        - {x: 31.5, y: 22}
+        - {x: 24.5, y: 26}
     outline: []
   spritePackingTag: 
   userData: 

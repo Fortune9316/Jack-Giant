@@ -4,18 +4,19 @@ using UnityEngine.UI;
 
 public class StartGame : MonoBehaviour {
 
-    // Use this for initialization
-    FacebookController controller;
-    Button button;
+	// Use this for initialization
+	FacebookController controller;
+	Button button;
 	void Start () {
-        controller = GameObject.Find("Main Camera").GetComponent<FacebookController>();
-        button = GetComponent<Button>();
-        button.onClick.AddListener(() => LogInApp());
+		controller = GameObject.Find ("Main Camera").GetComponent<FacebookController> ();
+		button = GetComponent<Button> ();
+		button.onClick.AddListener (() => logInApp ());
 	}
-    void LogInApp()
-    {
-        controller.Login();
-    }
+
+	void logInApp(){
+		//button.onClick.RemoveAllListeners ();
+		controller.login ();
+	}
 	
 	// Update is called once per frame
 	void Update () {
